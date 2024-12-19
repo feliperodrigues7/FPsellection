@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FPSellection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.png" alt="logo fp" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Cars</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="list">
+        <div class="item active">
+          <div class="car-img">
+            <img src="./assets/silver-car.png" alt="silver-porshe" />
+          </div>
+          <div class="content">
+            <p class="car-information">Single Owner</p>
+            <h2>911 Turbo</h2>
+            <p class="description">
+              The Porsche 911 is an iconic sports car renowned for its sleek
+              design and high-performance capabilities. With aerodynamic lines,
+              a rear-mounted engine, and precise handling, it seamlessly
+              combines power and sophistication. Available in various versions,
+              such as the Carrera and Turbo, the 911 features a luxurious
+              interior and advanced technology, delivering an unparalleled
+              driving experience.
+            </p>
+            <button class="information">Learn More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="car-img">
+            <img src="./assets/red-car.png" alt="Ferrari" />
+          </div>
+          <div class="content">
+            <p class="car-information">Single Owner</p>
+            <h2>Ferrari</h2>
+            <p class="description">
+              Ferrari is a symbol of speed, luxury, and exclusivity. With bold
+              design, powerful engines, and cutting-edge technology, each model
+              delivers an exhilarating and unmatched driving experience. It
+              embodies the essence of Italian engineering and automotive
+              passion.
+            </p>
+            <button class="information">Learn More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="car-img">
+            <img src="./assets/yellow-car.png" alt="Lamborghini" />
+          </div>
+          <div class="content">
+            <p class="car-information">Single Owner</p>
+            <h2>Lamborghini</h2>
+            <p class="description">
+              Lamborghini is synonymous with innovation, power, and bold design.
+              Renowned for its supercars, it combines extreme performance with
+              futuristic lines and striking elegance. It is an icon of luxury
+              and adrenaline.
+            </p>
+            <button class="information">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev"><img src="./assets/arrow.png" alt="arrow-left" /></button>
+        <button id="next"><img src="./assets/arrow.png" alt="arrow-rigth" /></button>
+      </div>
+
+      <div class="indicators">
+        <div class="number">01</div>
+        <ul>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
